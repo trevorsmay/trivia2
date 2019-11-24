@@ -1,0 +1,11 @@
+body {
+    font-size: 22px;
+    text-align: center;
+}
+
+#bridgemaster {
+    background-image: url("/Users/trevormay/Desktop/trivia2/assets/images/BRIDGEOFDEATH-.jpeg");
+    padding: 240px;
+    background-repeat: no-repeat;
+    margin-left: 40px;
+}

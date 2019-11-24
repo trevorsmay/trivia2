@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+
+<html lang="en-us">
+
+<head>
+    
+    <meta charset="UTF-8">
+    <title>Bridge of Death</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+<div class="container">
+    <div class="clearfix header">
+        <h1>STOP!</h1>
+        <p>
+                He who would cross the Bridge of Death 
+                Must answer me 
+        </p>
+        <button id="toggleFormButton" class="btn btn-primary">These Questions Three</button>
+    </div>
+<div id="answerForm">
+    <h2>Ere the other side he see.</h2>
+    <div class="card">
+        <div class="card-body">
+            <form>
+                <div class="form-group">
+                    <label for="question1">What is your Name?</label>
+                    <input type="text" class="form-control" id="name">
+                    <button id="toggleFormButton1" class="btn btn-primary">Answer</button>
+                    <!-- <label for="Question2"></label> -->
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="card" id="card-two">
+        <div class="card-body">
+        <form>
+            <div class="form-group">
+                <label for="question2">What is your quest?</label>
+                <input type="text" class="form-control" id="quest">
+                <button id="toggleFormButton2" class="btn btn-primary">Answer</button>
+            </div>
+        </form>
+        </div>
+    </div>
+
+    <div class="card" id="card-three">
+        <div class="card-body">
+            <form>
+                <div class="form-group">
+                    <label for="question3" id="question3"></label>
+                    <input type="text" class="form-control" id="death">
+                    <button id="toggleFormButton3" class="btn btn-primary">Answer</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<div class="card">
+    <div class="card-body" id="bridgemaster">
+
+    </div>
+</div>
+    
+<script src="assets/javascript/app.js"></script>
+
+</body>
+</html>
